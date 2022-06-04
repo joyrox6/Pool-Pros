@@ -34,7 +34,7 @@ a:visited {
   */
 
 .links {
-    background-color: mediumblue;
+    background-color: #083d8c;
     text-align: right;
     height: 25px;
     padding: 10px;
@@ -62,11 +62,23 @@ a:visited {
 
 .navigation a:hover {
   font-weight: bold;
-  color: mediumblue;
+  color: #083d8c;
 }
 
 .logo {
     display: block;
+}
+
+.fa-solid.fa-location-dot {
+  margin-right: 10px;
+}
+
+button {
+  background-color: white;
+  border: 1px solid #216ddf;
+  height: 30px;
+  color: #216ddf;
+  padding: 0px 20px; /*Top/Bottom is 10px and Right/Left is 5px*/
 }
 
 nav {
@@ -85,7 +97,7 @@ li {
   }
 
 footer {
-    background-color: mediumblue;
+    background-color: #083d8c;
     font-weight: bold;
     text-align: center;
     color: white;
@@ -93,7 +105,7 @@ footer {
 }
 
 .terms {
-    background-color: dodgerblue;
+    background-color: #216ddf;
     text-align: center;
     height: 25px;
     color: white;
