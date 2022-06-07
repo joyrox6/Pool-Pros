@@ -106,6 +106,15 @@ li {
     width: 25%;
   }
 
+  .main-body {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  h4 {
+    color: #216ddf;
+  }
+
 footer {
     background-color: #083d8c;
     font-weight: bold;
