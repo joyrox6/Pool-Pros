@@ -109,10 +109,23 @@ li {
   .main-body {
     margin: 0 auto;
     width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .filter-container {
+    background-color: #f6f6f6;
+    height: 40px;
   }
 
   h4 {
     color: #216ddf;
+    display: inline;
+    margin: 15px;
+  }
+
+  label {
+    margin: 15px;
   }
 
 footer {
